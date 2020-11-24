@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BranchTest]">
+  <test thread-count="5" name="RegressionTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetBankingV2.testCases.Login_Test">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.inetBankingV2.testCases.Login_Test -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [BranchTest] -->

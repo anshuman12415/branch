@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21573" started-at="2020-11-24T19:08:54Z" finished-at="2020-11-24T19:09:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21573" started-at="2020-11-24T19:08:54Z" finished-at="2020-11-24T19:09:16Z">
+      <class name="com.inetBankingV2.testCases.Login_Test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBankingV2.testCases.Login_Test@19dfb72a]" name="setup" is-config="true" duration-ms="13012" started-at="2020-11-24T19:08:54Z" finished-at="2020-11-24T19:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.inetBankingV2.testCases.Login_Test@19dfb72a]" name="login" duration-ms="7305" started-at="2020-11-24T19:09:07Z" finished-at="2020-11-24T19:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.inetBankingV2.testCases.Login_Test@19dfb72a]" name="teardown" is-config="true" duration-ms="1225" started-at="2020-11-24T19:09:15Z" finished-at="2020-11-24T19:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetBankingV2.testCases.Login_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
