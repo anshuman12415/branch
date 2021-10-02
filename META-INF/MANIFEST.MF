@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: inetBankingV2
-Bundle-SymbolicName: inetBankingV2
+Bundle-SymbolicName: inetBankingV2Branch
 Bundle-Version: 1.0.0.qualifier
 Export-Package: com.inetBankingV2.pageObject,
  com.inetBankingV2.testCases,
