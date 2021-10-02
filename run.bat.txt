@@ -1,2 +1,2 @@
-cd C:\Windows\System32\cmd.exe
+cd C:\Users\anshu\OneDrive\Documents\DummyProject\inetBankingV2
 mvn clean install

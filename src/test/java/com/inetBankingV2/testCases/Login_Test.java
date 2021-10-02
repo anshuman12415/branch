@@ -24,6 +24,7 @@ public class Login_Test extends Baseclass {
 		} else {
 			Assert.assertTrue(false);
 		}
+		System.out.println("passed");
 
 	}
 

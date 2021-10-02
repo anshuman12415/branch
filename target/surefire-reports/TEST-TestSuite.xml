@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="7.299" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="611.43" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -21,27 +21,27 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\anshu\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221;&quot;C:\Program Files (x86)\Android\android-sdk\platform-tools;&quot;;C:\Program Files\Java\jdk1.8.0_221\lib;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\jre;\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_221;C:\Users\anshu\AppData\Local\Android\Sdk\tools\bin;C:\Users\anshu\AppData\Local\Android\Sdk\tools;C:\Users\anshu\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk1.8.0_221\lib\missioncontrol\plugins;D:\SELENIUM JAVA PROJECT\Driver\chromedriver.exe;C:\Users\anshu\AppData\Local\Programs\Python\Python38\DLLs;C:\Users\anshu\AppData\Local\Programs\Python\Python38;C:\Users\anshu\AppData\Local\Programs\Python\Python38\Scripts;C:\Python27\Lib\site-packages;C:\Python27\Scripts;C:\Android;C:\Windows\System32;C:\Program Files\TortoiseGit\bin;C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin;%M2%;C:\Program Files\Git\bin;%MAVEN_HOME%\bin;C:\Users\anshu\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\anshu\AppData\Local\Programs\Python\Python38\;C:\Users\anshu\AppData\Local\Microsoft\WindowsApps;C:\Users\anshu\AppData\Roaming\npm;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files (x86)\Android\android-sdk\platforms\android-27;C:\Program Files (x86)\Android\android-sdk\platform-tools\adb.exe;C:\Program Files\Java\jdk1.8.0_221;C:\Program Files\Java\jdk1.8.0_221\lib\missioncontrol\plugins;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;C:\Python27\Scripts;C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\jre;C:\Program Files\Java\jdk1.8.0_221\lib;C:\Program Files\Git\bin;C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin;;."/>
-    <property name="maven.conf" value="C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221;&quot;C:\Program Files (x86)\Android\android-sdk\platform-tools;&quot;;C:\Program Files\Java\jdk1.8.0_221\lib;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\jre;\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_221;C:\Users\anshu\AppData\Local\Android\Sdk\tools\bin;C:\Users\anshu\AppData\Local\Android\Sdk\tools;C:\Users\anshu\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk1.8.0_221\lib\missioncontrol\plugins;D:\SELENIUM JAVA PROJECT\Driver\chromedriver.exe;C:\Users\anshu\AppData\Local\Programs\Python\Python38\DLLs;C:\Users\anshu\AppData\Local\Programs\Python\Python38;C:\Users\anshu\AppData\Local\Programs\Python\Python38\Scripts;C:\Python27\Lib\site-packages;C:\Python27\Scripts;C:\Android;C:\Windows\System32;C:\Program Files\TortoiseGit\bin;C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin;%M2%;C:\Program Files\Git\bin;C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin;C:\gradle-6.7.1\bin;C:\Program Files\nodejs\node_modules\npm\lib;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\anshu\OneDrive\Documents\JMeter\apache-jmeter-5.2.1\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\anshu"/>
+    <property name="library.jansi.path" value="C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="anshu"/>
-    <property name="java.class.path" value="C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="user.name" value="DESKTOP-KVS4D73$"/>
+    <property name="java.class.path" value="C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
@@ -53,16 +53,159 @@
     <property name="java.version" value="1.8.0_221"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\anshu\OneDrive\Documents\drivers\apache-maven-3.6.3\bin\.."/>
+    <property name="maven.home" value="C:\Users\anshu\OneDrive\Documents\ZIP\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="login" classname="com.inetBankingV2.testCases.Login_Test" time="7.299"/>
+  <testcase name="setup" classname="com.inetBankingV2.testCases.Login_Test" time="611.43">
+    <failure message="session not created&#10;from timeout: Timed out receiving message from renderer: 600.000&#10;  (Session info: chrome=93.0.4577.82)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-KVS4D73&apos;, ip: &apos;192.168.42.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0068D403+2479107]&#10;	Ordinal0 [0x00627D51+2063697]&#10;	Ordinal0 [0x005320C8+1056968]&#10;	Ordinal0 [0x0052499D+1001885]&#10;	Ordinal0 [0x005239ED+997869]&#10;	Ordinal0 [0x00523CA6+998566]&#10;	Ordinal0 [0x00523595+996757]&#10;	Ordinal0 [0x0051F264+979556]&#10;	Ordinal0 [0x00523551+996689]&#10;	Ordinal0 [0x005232F0+996080]&#10;	Ordinal0 [0x00523089+995465]&#10;	Ordinal0 [0x005332E0+1061600]&#10;	Ordinal0 [0x0057AC59+1354841]&#10;	Ordinal0 [0x0057992A+1349930]&#10;	Ordinal0 [0x0057583B+1333307]&#10;	Ordinal0 [0x00551F94+1187732]&#10;	Ordinal0 [0x00552DE9+1191401]&#10;	GetHandleVerifier [0x0080F3F6+1531734]&#10;	GetHandleVerifier [0x008BE9AE+2249998]&#10;	GetHandleVerifier [0x007139AB+501003]&#10;	GetHandleVerifier [0x00712A29+497033]&#10;	Ordinal0 [0x0062D11D+2085149]&#10;	Ordinal0 [0x006311C8+2101704]&#10;	Ordinal0 [0x00631302+2102018]&#10;	Ordinal0 [0x0063AA71+2140785]&#10;	BaseThreadInitThunk [0x759BFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x778C7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x778C7A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-KVS4D73', ip: '192.168.42.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0068D403+2479107]
+	Ordinal0 [0x00627D51+2063697]
+	Ordinal0 [0x005320C8+1056968]
+	Ordinal0 [0x0052499D+1001885]
+	Ordinal0 [0x005239ED+997869]
+	Ordinal0 [0x00523CA6+998566]
+	Ordinal0 [0x00523595+996757]
+	Ordinal0 [0x0051F264+979556]
+	Ordinal0 [0x00523551+996689]
+	Ordinal0 [0x005232F0+996080]
+	Ordinal0 [0x00523089+995465]
+	Ordinal0 [0x005332E0+1061600]
+	Ordinal0 [0x0057AC59+1354841]
+	Ordinal0 [0x0057992A+1349930]
+	Ordinal0 [0x0057583B+1333307]
+	Ordinal0 [0x00551F94+1187732]
+	Ordinal0 [0x00552DE9+1191401]
+	GetHandleVerifier [0x0080F3F6+1531734]
+	GetHandleVerifier [0x008BE9AE+2249998]
+	GetHandleVerifier [0x007139AB+501003]
+	GetHandleVerifier [0x00712A29+497033]
+	Ordinal0 [0x0062D11D+2085149]
+	Ordinal0 [0x006311C8+2101704]
+	Ordinal0 [0x00631302+2102018]
+	Ordinal0 [0x0063AA71+2140785]
+	BaseThreadInitThunk [0x759BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x778C7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x778C7A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetBankingV2.testCases.Baseclass.setup(Baseclass.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></failure>
+    <system-err><![CDATA[log4j:ERROR Could not read configuration file [log4j.properties].
+java.io.FileNotFoundException: log4j.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:372)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.inetBankingV2.testCases.Baseclass.setup(Baseclass.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+log4j:ERROR Ignoring configuration file [log4j.properties].
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 27422
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632222586.826][SEVERE]: Timed out receiving message from renderer: 600.000
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="com.inetBankingV2.testCases.Login_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.inetBankingV2.testCases.Login_Test" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
